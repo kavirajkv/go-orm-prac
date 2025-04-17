@@ -1,4 +1,4 @@
-module github.com/kavirajkv/git-orm-prac
+module github.com/kavirajkv/go-orm-prac
 
 go 1.22.3
 
