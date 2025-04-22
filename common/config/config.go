@@ -11,6 +11,7 @@ var (
 	DB_PORT=""
 	DB_HOST=""
 	DB_NAME=""
+	PORT=""
 )
 
 
@@ -29,5 +30,6 @@ func InitConfig() {
 	DB_PORT = viper.GetString("DB_PORT")
 	DB_HOST = viper.GetString("DB_HOST")
 	DB_NAME = viper.GetString("DB_NAME")
+	PORT = viper.GetString("PORT")
 
 }
