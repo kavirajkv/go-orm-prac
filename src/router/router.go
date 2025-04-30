@@ -9,4 +9,7 @@ func Routes(app *fiber.App) {
 	app.Get("/health", func(c *fiber.Ctx) error {
 		return c.SendString("OK")
 	})
+
+	// Mount User Routes
+	MountUser(app.Group("/user"))
 }
